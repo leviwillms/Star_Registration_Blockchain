@@ -2,7 +2,7 @@
 
 This project demonstrates the fundamental concepts of a Blockchain platform.
 Concepts like:
-    - Blocks
+- Blocks
     - Blockchain
     - Transactions
     - Wallets
@@ -10,18 +10,21 @@ Concepts like:
     - Proof of Existance
 
 This project was created from boilerplate code with a REST Api already setup to expose some of the functionalities
-implemented in the private blockchain.
+implemented in the private blockchain. This boilerplate code was provided by Udacity at the end of the first course, 'Blockchain Fundamentals',
+of their 'BlockChain Developer' Nanodegree (see https://www.udacity.com/course/blockchain-developer-nanodegree--nd1309). As the project
+demonstrates the aforementioned concepts, one major blockchain functionality that was left out was the blockchains consensus algorithm. Although 
+modern consensus algorithms were covered in the course, they did not make it into this project.
 
 ## What problem was solved implementing this private Blockchain application?
 
 The scenario: my employer is trying to make a test of concept on how a Blockchain application can be implemented in his company.
-He is an astronomy fans and he spend most of his free time on searching stars in the sky, that's why he would like
-to create a test application that will allows him to register stars, and also some others of his friends can register stars
-too but making sure the application know who owned each star.
+He is an astronomy fan and he spends most of his free time on searching stars in the sky, that's why he would like
+to create a test application that will allow him to register stars, and also some other of his friends can register stars
+too but making sure the application knows who owned each star.
 
 ### What is the process describe by the employer to be implemented in the application?
 
-1. The application will create a Genesis Block when it is run.
+1. The application will create a Genesis Block when it runs.
 2. The user will request the application to send a message to be signed using a Wallet and in this way verify the ownership over the wallet address. The message format will be: `<WALLET_ADRESS>:${new Date().getTime().toString().slice(0,-3)}:starRegistry`;
 3. Once the user has the message, they can use a Bitcoin Wallet to sign the message.
 4. The user will try to submit the Star object in JSON format: `wallet address`, `message`, `signature` and the `star` object with the star information.
