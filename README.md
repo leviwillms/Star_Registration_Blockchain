@@ -14,7 +14,7 @@ implemented in the private blockchain.
 
 ## What problem was solved implementing this private Blockchain application?
 
-Your employer is trying to make a test of concept on how a Blockchain application can be implemented in his company.
+The scenario: my employer is trying to make a test of concept on how a Blockchain application can be implemented in his company.
 He is an astronomy fans and he spend most of his free time on searching stars in the sky, that's why he would like
 to create a test application that will allows him to register stars, and also some others of his friends can register stars
 too but making sure the application know who owned each star.
