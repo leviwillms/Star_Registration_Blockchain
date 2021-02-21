@@ -2,7 +2,7 @@
 
 This project demonstrates the fundamental concepts of a Blockchain platform.
 Concepts like:
-   - Blocks
+- Blocks
     - Blockchain
     - Transactions
     - Wallets
