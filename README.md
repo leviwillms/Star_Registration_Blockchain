@@ -2,12 +2,12 @@
 
 This project demonstrates the fundamental concepts of a Blockchain platform.
 Concepts like:
-    ```- Blocks
+   - Blocks
     - Blockchain
     - Transactions
     - Wallets
     - Blockchain Identity
-    - Proof of Existance```
+    - Proof of Existance
 
 This project was created from boilerplate code with a REST Api already setup to expose some of the functionalities
 implemented in the private blockchain. This boilerplate code was provided by Udacity at the end of the first course, 'Blockchain Fundamentals',
