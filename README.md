@@ -10,8 +10,8 @@ Concepts like:
     - Proof of Existance
 
 This project was created from boilerplate code with a REST Api already setup to expose some of the functionalities
-implemented in the private blockchain. This boilerplate code was provided by Udacity at the end of the first course, 'Blockchain Fundamentals',
-of their 'BlockChain Developer' Nanodegree (see https://www.udacity.com/course/blockchain-developer-nanodegree--nd1309). As the project
+implemented in the private blockchain. This boilerplate code was provided by Udacity at the end of the first course, `Blockchain Fundamentals`,
+of their `BlockChain Developer` Nanodegree (see https://www.udacity.com/course/blockchain-developer-nanodegree--nd1309). As the project
 demonstrates the aforementioned concepts, one major blockchain functionality that was left out was the blockchains consensus algorithm. Although 
 modern consensus algorithms were covered in the course, they did not make it into this project.
 
@@ -25,7 +25,7 @@ too but making sure the application knows who owned each star.
 ### What is the process describe by the employer to be implemented in the application?
 
 1. The application will create a Genesis Block when it runs.
-2. The user will request the application to send a message to be signed using a Wallet and in this way verify the ownership over the wallet address. The message format will be: `<WALLET_ADRESS>:${new Date().getTime().toString().slice(0,-3)}:starRegistry`;
+2. The user will request the application to send a message to be signed using a Wallet and in this way verify the ownership over the wallet address. The message format will be: `<WALLET_ADRESS>:${new Date().getTime().toString().slice(0,-3)}:starRegistry;
 3. Once the user has the message, they can use a Bitcoin Wallet to sign the message.
 4. The user will try to submit the Star object in JSON format: `wallet address`, `message`, `signature` and the `star` object with the star information.
     The Star information will be formed in this format:
@@ -62,9 +62,9 @@ Libraries purpose:
 4. `crypto-js` This module contain some of the most important cryotographic methods and will help us to create the block hash.
 5. `hex2ascii` This library will help us to **decode** the data saved in the body of a Block.
 
-## Understanding the boilerplate code
+## Understanding the project
 
-The Boilerplate code is a simple architecture for a Blockchain application, it includes a REST APIs application to expose the Blockchain application methods to your client applications or users.
+The project is a simple architecture for a Blockchain application, it includes a REST APIs application to expose the Blockchain methods to the clients application or users.
 
 1. `app.js` file contains the configuration and initialization of the REST Api, this code was not changed for the project.
 2. `BlockchainController.js` file contains the routes of the REST Api. Those are the methods that expose the urls needed to call when a request is made to the application.
@@ -72,7 +72,7 @@ The Boilerplate code is a simple architecture for a Blockchain application, it i
 
 ### Starting with the application code:
 
-First thing first, to use the application, download or clone the code.
+First things first, to use the application, download or clone the code.
 
 Then, install all the libraries and module dependencies, to do that: open a terminal and run the command `npm install`
 
